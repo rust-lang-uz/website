@@ -28,9 +28,9 @@ export default function Home() {
             <p>Rust haqida boshlang'ich ma'lumot va tajribalar beruvchi manba.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://alt.rust-lang.uz" className={styles.card}>
+            <h2>Alternativ &rarr;</h2>
+            <p>@ismoilovdev tomonidan yuritiladigan shaxsiy alternativ manba</p>
           </a>
 
           <a
