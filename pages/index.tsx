@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://rust-lang.org/uz" className={styles.card}>
             <h2>Asosiy &rarr;</h2>
-            <p>Rust offitsial manba sayti. Rust va Rust foundation haqidagi ma'lumotlar.</p>
+            <p>Rust offitsial sayti. Rust va Rust foundation haqidagi ma'lumotlar.</p>
           </a>
 
           <a href="https://book.rust-lang.uz" className={styles.card}>
