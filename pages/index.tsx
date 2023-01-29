@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="https://t.me/rustlanguz_offtopic" className={styles.card}>
+          <a href="https://t.me/rustlanguz/9400" className={styles.card}>
             <h2>Offtopic &rarr;</h2>
             <p>Mavzulardan tashqari boshqalar bilan Telegramda mu'loqot uchun.</p>
           </a>
