@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://rust-lang.org/uz" className={styles.card}>
             <h2>Asosiy &rarr;</h2>
-            <p>Rust offitsial sayti. Rust va Rust foundation haqidagi ma'lumotlar.</p>
+            <p>Rust rasmiy sayti. Rust va Rust foundation haqidagi ma'lumotlar.</p>
           </a>
 
           <a href="https://book.rust-lang.uz" className={styles.card}>
@@ -43,7 +43,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Faoliyat &rarr;</h2>
-            <p>GitHub dagi Ochiq Lavhalik dasturlarni rivojlantiruvchi organizatsiyamiz.</p>
+            <p>GitHub dagi Ochiq Manba dasturlarni rivojlantiruvchi organizatsiyamiz.</p>
           </a>
 
           <a
@@ -54,7 +54,7 @@ export default function Home() {
           >
             <h2>Hamjamiyat &rarr;</h2>
             <p>
-              Telegram sotsial tarmog'ida joylashgan kommunikativ jamiyatimiz.
+              Telegram ijtimoiy tarmog'ida joylashgan kommunikativ jamiyatimiz.
             </p>
           </a>
 
