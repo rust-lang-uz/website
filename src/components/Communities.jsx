@@ -70,7 +70,7 @@ export function Communities() {
           className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
         >
           {communities.map((resource) => (
-            <Link href={resource.link}>
+            <Link href={resource.link} key={crypto.randomUUID()}>
               <li
                 key={resource.title}
                 className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
