@@ -43,8 +43,7 @@ export default function Home() {
 
         {/* Favicons */}
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#000000" />
-        <link rel="mask-icon" href="/logo.svg" color="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
