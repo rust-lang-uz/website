@@ -20,13 +20,13 @@ export function Socials() {
               Bizni kuzatib boring!
             </h2>
             <p className="mt-4 text-lg tracking-tight text-orange-200">
-              Rust o'z hamjamiyati haqida qayg'uradi va o'z sotsial
-              tarmog'larida hamma aktual yangiliklar bilan ulashib boradi.
+              Rust o'z hamjamiyati haqida qayg'uradi va o'z ijtimoiy
+              tarmoqlarida barcha aktual yangiliklar bilan ulashib boradi.
             </p>
           </div>
           <div className="lg:pl-16">
             <h3 className="text-base font-medium tracking-tight text-white">
-              Twitter sotsial tarmog'larimiz{' '}
+              Twitterdagi tarmoqlarimiz{' '}
               <span aria-hidden="true">&rarr;</span>
             </h3>
             <div className="mt-4 sm:relative sm:flex sm:items-center sm:py-0.5 sm:pr-2.5">

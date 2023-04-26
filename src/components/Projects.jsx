@@ -49,7 +49,7 @@ export function Projects() {
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Rust dasturlash tilida bir necha yo'nalishlar bo'yicha loyiha va
           dasturlar yozsa bo'ladi. Ushbu keltirilgan ro'yxatda ushbu
-          yo'nalishlar ko'rishingiz mumkin.
+          yo'nalishlarni ko'rishingiz mumkin.
         </p>
         <Expandable>
           {({ isExpanded }) => (

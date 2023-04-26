@@ -18,11 +18,12 @@ export function Introduction() {
         <p className="mt-8 font-display text-3xl font-bold tracking-tight text-slate-900">
           Tezlik
         </p>
-
+embe
         <p className="mt-4">
           Rust o'ta tez va resurs tejamkor: hech qanday rantaym yoki axlat
-          yig'uvchisiz (GC), tezlik muhim bo'lgan servislarni qo'llab
-          quvvatlovchi, embed qurilmalarda ishlovchi va boshqa tillar bilan
+          yig'uvchisiz (garbage collector - GC), tezlik muhim bo'lgan servislarni qo'llab
+          quvvatlovchi, embedded qurilmalarda 
+          ishlovchi va boshqa tillar bilan
           osongina biriktirish imkoniyatiga ega.
         </p>
 
@@ -33,7 +34,7 @@ export function Introduction() {
         <p className="mt-4">
           Rustning boy tip tizimi va egalik xotira modeli xavfsizligi va oqim
           xavfsizligi kompilyatsiya vaqti sizga har xil turdagi xatoliklardan
-          holish bo'lish imkoniyatini beradi.
+          holi bo'lish imkoniyatini beradi.
         </p>
 
         <p className="mt-4 font-display text-3xl font-bold tracking-tight text-slate-900">

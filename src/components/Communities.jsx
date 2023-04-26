@@ -60,7 +60,7 @@ export function Communities() {
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Rust dasturlash tilini o'rganishda sizni qo'llab quvvatlab turuvchi
           jamiyat mavjud. Istagan payt jamiyatimiz guruhlaridan biriga kirib
-          boshqa rustacean lar maslahatlashish yoki yangi dasturchilar bilan o'z
+          boshqa rustaceanlar maslahatlashish yoki yangi dasturchilar bilan o'z
           tajribangizni ulashingiz mumkin.
         </p>
       </Container>
