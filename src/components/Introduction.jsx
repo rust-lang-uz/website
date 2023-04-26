@@ -18,7 +18,6 @@ export function Introduction() {
         <p className="mt-8 font-display text-3xl font-bold tracking-tight text-slate-900">
           Tezlik
         </p>
-embe
         <p className="mt-4">
           Rust o'ta tez va resurs tejamkor: hech qanday rantaym yoki axlat
           yig'uvchisiz (garbage collector - GC), tezlik muhim bo'lgan servislarni qo'llab
