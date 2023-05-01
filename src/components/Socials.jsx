@@ -26,8 +26,7 @@ export function Socials() {
           </div>
           <div className="lg:pl-16">
             <h3 className="text-base font-medium tracking-tight text-white">
-              Twitterdagi tarmoqlarimiz{' '}
-              <span aria-hidden="true">&rarr;</span>
+              Twitterdagi tarmoqlarimiz <span aria-hidden="true">&rarr;</span>
             </h3>
             <div className="mt-4 sm:relative sm:flex sm:items-center sm:py-0.5 sm:pr-2.5">
               <Button
