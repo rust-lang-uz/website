@@ -58,10 +58,10 @@ export function Communities() {
           Siz hech qachon yolg'iz emassiz!
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Rust dasturlash tilini o'rganishda sizni qo'llab quvvatlab turuvchi
-          jamiyat mavjud. Istagan payt jamiyatimiz guruhlaridan biriga kirib
-          boshqa rustaceanlar maslahatlashish yoki yangi dasturchilar bilan o'z
-          tajribangizni ulashingiz mumkin.
+        Rust dasturlash tilini o'rganishning qiziqarli olamida sizning kelishingizni iliq
+        va tarbiyali hamjamiyat kutmoqda. Rust ishqibozlari bilan bog'lanish, yo'l-yo'riq izlash
+        va bilim almashish imkoniyatidan foydalaning. Hamkorlik ruhi va Rustni rivojlantirishga
+        bo'lgan umumiy ishtiyoq orqali birlashgan Rust O'zbekiston hamjamiyatihga qo'shiling.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
