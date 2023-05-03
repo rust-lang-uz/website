@@ -17,12 +17,14 @@ function Testimonial() {
           kerakli dastur va asboblar mavjud”
         </p>
       </blockquote>
-      <figcaption className="mt-2 text-sm text-slate-500">
-        <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Antonio Verardi
-        </strong>
-        , Yelp da Infrastruktura Injineri
-      </figcaption>
+        <a href="https://katsuki.moe">
+          <figcaption className="mt-2 text-sm text-slate-500">
+            <strong className="font-semibold text-blue-600 before:content-['—_']">
+              Yuri Katsuki
+            </strong>
+            , Uzinfocom da Open Source Team Lead
+          </figcaption>
+        </a>
     </figure>
   )
 }
