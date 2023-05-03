@@ -42,14 +42,20 @@ export function Contributor() {
 							Stabil dasturlar yaratish yanada oson!
 						</p>
 						<p className="mt-4 text-lg tracking-tight text-slate-700">
-						Tizimli dasturlash olamiga qiziqib, Rust dasturlash tiliga qiziqib  o'rganishga kirishdim. Ushbu o'quv tajribasi
-					    davomida men uning ichki faoliyati va imkoniyatlari haqida qimmatli tushunchalarga ega bo'ldim. Rustni
-						o'z loyihalarimda ishlatishni boshlaganimda, men uning ajoyib tezligi va samaradorligidan hayratda qoldim,
-						bu mening mahsuldorligimni sezilarli darajada oshirdi.
-                        Rustning dasturlash hamjamiyatidagi imkoniyatlarini tushunib, Rustbookni o‘zbek tiliga tarjima qilib, o‘z hissamni
-						qo‘shishga qaror qildim. Bu kengroq auditoriyaga Rust kuchiga kirish va tushunish imkonini beradi. Ishonchim komilki,
-						Rustbook-ni tajriba darajasidan qat'i nazar, tizim dasturlashiga qiziqqan har bir kishiga tavsiya qilaman.
-						Rust yordamida siz ham qiziqarli sayohatga chiqishingiz va dasturlash mahoratingizning haqiqiy imkoniyatlarini ochishingiz mumkin.
+							Tizimli dasturlash olamiga qiziqib, Rust dasturlash tiliga qiziqib
+							o'rganishga kirishdim. Ushbu o'quv tajribasi davomida men uning
+							ichki faoliyati va imkoniyatlari haqida qimmatli tushunchalarga
+							ega bo'ldim. Rustni o'z loyihalarimda ishlatishni boshlaganimda,
+							men uning ajoyib tezligi va samaradorligidan hayratda qoldim, bu
+							mening mahsuldorligimni sezilarli darajada oshirdi. Rustning
+							dasturlash hamjamiyatidagi imkoniyatlarini tushunib, Rustbookni
+							o‘zbek tiliga tarjima qilib, o‘z hissamni qo‘shishga qaror qildim.
+							Bu kengroq auditoriyaga Rust kuchiga kirish va tushunish imkonini
+							beradi. Ishonchim komilki, Rustbook-ni tajriba darajasidan qat'i
+							nazar, tizim dasturlashiga qiziqqan har bir kishiga tavsiya
+							qilaman. Rust yordamida siz ham qiziqarli sayohatga chiqishingiz
+							va dasturlash mahoratingizning haqiqiy imkoniyatlarini ochishingiz
+							mumkin.
 						</p>
 						<p className="mt-8">
 							<Link
