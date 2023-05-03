@@ -77,7 +77,7 @@ export function Communities() {
 						>
 							<li
 								key={resource.title}
-								className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
+								className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12 rounded-2xl hover:bg-gray-200 p-4 m-2"
 							>
 								<div className="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
 									<resource.image />
