@@ -1,5 +1,5 @@
 <header>
-<img src="./assets/logo.png" alt="logo" height="100" align="left">
+<img src="https://rust-lang.uz/logo.png" alt="logo" height="100" align="left">
 <h1 style="display: inline">Rust Uzbekistan Website</h1>
 
 Alternative website for Rust programming language community
