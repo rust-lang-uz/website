@@ -10,7 +10,7 @@
     "check": "pnpm rome check .",
     "fix": "rome format . --write"
   },
-  "browserslist": "defaults, not ie <= 11",
+  "browserslist": ["defaults, not ie <= 11"],
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "autoprefixer": "^10.4.12",

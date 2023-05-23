@@ -9,36 +9,36 @@ import strokesImage from "@/images/screencasts/strokes.svg";
 
 const videos = [
 	{
-		title: "Getting started with Figma",
-		link: "",
+		title: "Rust Crash Course",
+		link: "https://www.youtube.com/watch?v=zF34dRivLOw",
 		description:
-			"Get familiar with the Figma UI, the different tools it offers, and the most important features.",
-		image: setupImage,
-		runtime: { minutes: 16, seconds: 54 },
+			"Learn all the fundamentals of the Rust programming language in this crash course.",
+		image: "https://i3.ytimg.com/vi/zF34dRivLOw/maxresdefault.jpg",
+		runtime: { minutes: 90, seconds: 43 },
 	},
 	{
-		title: "Setting up your artboard",
-		link: "",
+		title: "Rust 101 Crash Course",
+		link: "https://www.youtube.com/watch?v=lzKeecy4OmQ",
 		description:
-			"Learn how to create a new artboard and configure your grid and rulers for designing icons.",
-		image: gridsImage,
-		runtime: { minutes: 9, seconds: 12 },
+			"You'll learn Rust from scratch and start your path to becoming a Rust Developer with this 6-hour course.",
+		image: "https://i3.ytimg.com/vi/lzKeecy4OmQ/maxresdefault.jpg",
+		runtime: { minutes: 361, seconds: 14 },
 	},
 	{
-		title: "Designing your first icon",
-		link: "",
+		title: "Rust Language 🦀 Crash Course for beginners",
+		link: "https://www.youtube.com/watch?v=nweNM-TQYfs",
 		description:
-			"Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.",
-		image: strokesImage,
-		runtime: { minutes: 23, seconds: 25 },
+			"The first time I've been introduced to Rust was on January 2022, you might think \"oh that's pretty new\".",
+		image: "https://i3.ytimg.com/vi/nweNM-TQYfs/maxresdefault.jpg",
+		runtime: { minutes: 60, seconds: 1 },
 	},
 	{
-		title: "Advanced design techniques",
-		link: "",
+		title: "Rust Programming Course for Beginners - Tutorial",
+		link: "https://www.youtube.com/watch?v=MsocPEZBd-M",
 		description:
-			"Learn the techniques you need to know to adapt your original icon to a modern duotone style.",
-		image: duotoneImage,
-		runtime: { minutes: 28, seconds: 44 },
+			"Learn the Rust programming language in this course for beginners.",
+		image: "https://i3.ytimg.com/vi/MsocPEZBd-M/maxresdefault.jpg",
+		runtime: { minutes: 85, seconds: 36 },
 	},
 ];
 
@@ -70,13 +70,12 @@ export function Resources() {
 					Resurslar
 				</SectionHeading>
 				<p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-					Over an hour of high quality, step-by-step video content to sharpen
-					your icon design workflow.
+					Hamma o'z bilimi va tajribasi bilan bo'lishishadi
 				</p>
 				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					Learn how to design your very first icons in a series of screencasts
-					that will teach you everything you need to know to go from beginner to
-					pro in just over an hour.
+					Rust hamjamiyati boshqa hamjamiyatlardan farqli, har bir rustacean
+					hamjamiyat uchun biron kontent yaratish doirasida o'z bilim va
+					tajribalari bilan bo'lishishga intilishadi.
 				</p>
 			</Container>
 			<Container size="lg" className="mt-16">
@@ -98,7 +97,13 @@ export function Resources() {
 									}}
 								>
 									<div className="flex overflow-hidden rounded shadow-sm">
-										<Image src={video.image} alt="" unoptimized />
+										<Image
+											src={video.image}
+											alt=""
+											width="200"
+											height="108"
+											unoptimized
+										/>
 									</div>
 									<div className="absolute bottom-2 left-2 flex items-center rounded-lg bg-black/30 px-1.5 py-0.5 text-sm text-white [@supports(backdrop-filter:blur(0))]:bg-white/10 [@supports(backdrop-filter:blur(0))]:backdrop-blur">
 										<PlayIcon className="h-4 w-4 fill-current stroke-current" />
