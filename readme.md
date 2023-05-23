@@ -1,35 +1,10 @@
-# Primer
+<header>
+<img src="./assets/logo.png" alt="logo" height="100" align="left">
+<h1 style="display: inline">Rust Uzbekistan Website</h1>
 
-Primer is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Alternative website for Rust programming language community
 
-## Getting started
+[![GitHub top language](https://img.shields.io/github/languages/top/rust-lang-uz/website?style=flat-square&logo=github)](https://github.com/rust-lang-uz/website)
+[![Chat](https://img.shields.io/badge/Chat-grey?style=flat-square&logo=telegram)](https://t.me/rustlanguz)
 
-To get started with this template, first install the npm dependencies:
-
-```bash
-npm install
-```
-
-Next, run the development server:
-
-```bash
-npm run dev
-```
-
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
-
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
-
-## License
-
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following communities:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+</header>
