@@ -84,7 +84,7 @@ export function Resources() {
 					className="grid grid-cols-1 gap-x-8 gap-y-10 [counter-reset:video] sm:grid-cols-2 lg:grid-cols-4"
 				>
 					{videos.map((video) => (
-						<a href={video.link}>
+						<a href={video.link} key={video.title}>
 							<li
 								key={video.title}
 								className="[counter-increment:video] rounded-2xl hover:bg-gray-300 p-4"
