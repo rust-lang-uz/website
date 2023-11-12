@@ -17,10 +17,10 @@ function Testimonial() {
 					kerakli dastur va asboblar mavjud”
 				</p>
 			</blockquote>
-			<a href="https://katsuki.moe">
+			<a href="https://orzklv.uz">
 				<figcaption className="mt-2 text-sm text-slate-500">
 					<strong className="font-semibold text-blue-600 before:content-['—_']">
-						Yuri Katsuki
+						Sohibjon Orziqulov
 					</strong>
 					, Uzinfocom da Open Source Team Lead
 				</figcaption>
