@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Rewritten version of website",
   "scripts": {
-    "install": "./vercel/install.sh",
+    "list": "pwd && ls -la",
+    "rnstl": "pnpm run list && ./vercel/install.sh",
     "build": "./vercel/build.sh"
   },
   "author": "Sokhibjon Orzikulov <sakhib@orzklv.uz>",
