@@ -2,7 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{js,jsx}"],
+	content: ["./src/**/*.rs", "*.html"],
 	theme: {
 		boxShadow: {
 			sm: "0 2px 6px rgb(15 23 42 / 0.08)",
