@@ -1,0 +1,11 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Rewritten version of website",
+  "scripts": {
+    "install": "./vercel/install.sh",
+    "build": "./vercel/build.sh"
+  },
+  "author": "Sokhibjon Orzikulov <sakhib@orzklv.uz>",
+  "license": "CC0-1.0"
+}
