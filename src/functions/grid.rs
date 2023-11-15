@@ -19,8 +19,6 @@ pub fn grid_pattern(props: &GridPatternProps) -> Html {
         crypto.random_uuid()
     };
 
-    gloo::console::log!("pattern y: {}", props.y);
-
     html! {
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
