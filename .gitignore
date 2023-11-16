@@ -1,3 +1,5 @@
 /dist/
 /target/
 /style/output.css
+node_modules
+pnpm-lock.yaml
