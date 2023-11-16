@@ -1,4 +1,4 @@
-# Yew Trunk Template
+# Rust 
 
 This is a fairly minimal template for a Yew app that's built with [Trunk].
 
