@@ -1,20 +1,29 @@
-name: Test CI
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy CI
 
 on:
-  workflow_dispatch:
   push:
-  pull_request:
-    branches: [master]
+    branches: ["main"]
+  workflow_dispatch:
 
-env:
-  CARGO_TERM_COLOR: always
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: install toolchain
         uses: actions-rs/toolchain@v1
@@ -46,5 +55,14 @@ jobs:
       - name: Build
         run: trunk build
 
-      - name: Run tests
-        run: cargo test --verbose
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
