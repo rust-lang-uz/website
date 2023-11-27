@@ -68,6 +68,13 @@ pub fn hero() -> Html {
                             >
                                 {"O'rganish"}
                             </Button>
+                            <Button
+                                href="https://doc.rust-lang.uz/rust-by-example/"
+                                variant="outline"
+                                color="blue"
+                            >
+                                {"Misollar yordamida"}
+                            </Button>
                         </div>
                     </div>
                 </div>
