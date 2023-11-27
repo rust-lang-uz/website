@@ -62,7 +62,7 @@ pub fn hero() -> Html {
                                 { "Guruhga qo'shilish" }
                             </Button>
                             <Button
-                                href="https://book.rust-lang.uz"
+                                href="https://doc.rust-lang.uz/book/"
                                 variant="outline"
                                 color="blue"
                             >
