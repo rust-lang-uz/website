@@ -47,7 +47,7 @@ pkgs.rustPlatform.buildRustPackage {
   ];
 
   buildInputs = with pkgs; [
-    wasm-bindgen-cli
+    openssl
   ];
 
   buildPhase = ''
@@ -58,8 +58,8 @@ pkgs.rustPlatform.buildRustPackage {
     export HOME="$(pwd)/home"
     mkdir -p $HOME
 
-    # Create the dist folder
-    cargo build --release
+    # Test wasm
+    wasm-bindgen -V
 
     # Build wasm webiste
     trunk build --release --public-url=/
