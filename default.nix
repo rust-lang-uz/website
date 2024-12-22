@@ -63,7 +63,7 @@ pkgs.rustPlatform.buildRustPackage {
     cargo build --release
 
     # Build wasm webiste
-    trunk build --release
+    trunk build --release --public-url=/
   '';
 
   installPhase = ''

@@ -28,37 +28,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: install toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          target: wasm32-unknown-unknown
-          override: true
-          profile: minimal
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
 
-      - name: Install Nodejs
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20.x"
+      - name: Cache Nix store
+        uses: DeterminateSystems/magic-nix-cache-action@main
 
-      - name: Install trunk
-        uses: jetli/trunk-action@v0.1.0
-        with:
-          version: "latest"
-
-      - name: Install PNPM
-        run: npm install -g pnpm
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Compile css files
-        run: pnpm run css
-
-      - name: Build
-        run: trunk build --release --public-url=/
+      - name: Build via Nix
+        run: nix build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -66,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'
+          path: 'result/www'
 
       - name: Deploy to GitHub Pages
         id: deployment
