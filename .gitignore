@@ -1,5 +1,15 @@
+# Output website
 /dist/
-/target/
+
+# Rust build directory
+/target
+
+# Tailwindcss output
 /style/output.css
+
+# Nodejs
 node_modules
 pnpm-lock.yaml
+
+# Nix
+/result

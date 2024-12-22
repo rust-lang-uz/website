@@ -1,13 +1,14 @@
 [package]
-name = "trunk-template"
+name = "rust-website"
 version = "0.1.0"
 edition = "2021"
-description = "Template for starting a Yew project using Trunk"
-readme = "README.md"
-repository = "https://github.com/yewstack/yew-trunk-minimal-template"
+description = "Website of Rust Uzbekistan"
+readme = "readme.md"
+repository = "https://github.com/rust-lang-uz/website"
 license = "MIT OR Apache-2.0"
 keywords = ["yew", "trunk"]
 categories = ["gui", "wasm", "web-programming"]
+homepage = "https://rust-lang.uz"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
@@ -16,13 +17,13 @@ js-sys = "0.3.65"
 uuid = { version = "1.5.0", features = ["v4"] }
 wasm-bindgen = "0.2.88"
 web-sys = { version = "0.3.65", features = [
-        "Crypto", 
-        "Window", 
-        "DomRect", 
-        "Element", 
-        "EventTarget", 
-        "AddEventListenerOptions", 
-        "ScrollIntoViewOptions",
-        "ScrollBehavior"
+  "Crypto",
+  "Window",
+  "DomRect",
+  "Element",
+  "EventTarget",
+  "AddEventListenerOptions",
+  "ScrollIntoViewOptions",
+  "ScrollBehavior",
 ] }
-yew = { version="0.20", features=["csr"] }
+yew = { version = "0.20", features = ["csr"] }
