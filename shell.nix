@@ -31,6 +31,9 @@ in
       # Launch scripts
       just
 
+      # Tailwind
+      tailwindcss
+
       # Rust
       rustc
       cargo

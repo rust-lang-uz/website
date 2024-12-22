@@ -26,10 +26,10 @@ jobs:
         run: nix flake check --all-systems --show-trace
 
       - name: Compile css
-        run: nix-shell --run "tailwindcss -i ./style/input.css -o ./style/output.css"
+        run: nix develop --command bash -c "tailwindcss -i ./style/input.css -o ./style/output.css"
 
       - name: Compile website
-        run: nix-shell --run "trunk build --release"
+        run: nix develop --command bash -c "trunk build --release"
 
       - name: Build via Nix
         run: nix build
