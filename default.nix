@@ -47,8 +47,7 @@ pkgs.rustPlatform.buildRustPackage {
   ];
 
   buildInputs = with pkgs; [
-    openssl
-    libressl
+    wasm-bindgen-cli
   ];
 
   buildPhase = ''
