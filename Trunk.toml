@@ -1,0 +1,9 @@
+trunk-version = "*"
+
+[build]
+
+# See the note in README.md - change this value if you are deploying your app under a subpath
+public_url = "/"
+
+# Minify files if building in release mode
+minify = "on_release"
