@@ -4,11 +4,10 @@
 }: let
   getLibFolder = pkg: "${pkg}/lib";
 
-  toolchain = with fenix.packages.${pkgs.system};
-    combine [
-      stable.toolchain
-      targets.wasm32-unknown-unknown.stable.rust-std
-    ];
+  toolchain = fenix.packages.${pkgs.system}.fromToolchainFile {
+    file = ./rust-toolchain.toml;
+    sha256 = "sha256-s1RPtyvDGJaX/BisLT+ifVfuhDT1nZkZ1NcK8sbwELM=";
+  };
 in
   pkgs.stdenv.mkDerivation {
     name = "rust-website";
